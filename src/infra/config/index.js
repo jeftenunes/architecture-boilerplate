@@ -11,6 +11,7 @@ if (!envFound) {
 }
 
 module.exports = {
+    jwt_key: process.env.JWT_KEY,
     port: parseInt(process.env.PORT 
         ? process.env.PORT 
         : '3000', 10),
